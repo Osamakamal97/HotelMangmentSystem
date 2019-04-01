@@ -120,7 +120,7 @@
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-42" />
     <option name="y" value="46" />
     <option name="width" value="1156" />
