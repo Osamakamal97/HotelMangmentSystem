@@ -1,1 +1,1 @@
-<h1> Hotel management system </h1>
+<h1> Hellolaravel! </h1>
