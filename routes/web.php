@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group(['prefix' => 'hotel'],function (){
+
+    Route::get('/',['as'=>'index','uses'=>'HotelController@index']);
+
+});

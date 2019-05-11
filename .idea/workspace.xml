@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="30d783f3-a8b4-4484-b0e8-68fe4d1353c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,39 +16,39 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_28_133048_create_hotel_table.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/content/main.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" column="107" selection-start-line="24" selection-start-column="107" selection-end-line="24" selection-end-column="107" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_28_133333_create_employee_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_28_133434_create_reservation_table.php">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            <state relative-caret-position="170">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_28_133305_create_room_table.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HotelController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            <state relative-caret-position="153">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/hotel/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -66,20 +68,24 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_04_01_142742_create_rooms_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_01_161151_create_resarvations_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_01_161151_create_reservations_table.php" />
-        <option value="$PROJECT_DIR$/app/Hotel.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_01_091035_create_hotels_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_01_151454_create_employee_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_01_161151_create_reservation_table.php" />
-        <option value="$PROJECT_DIR$/app/Reservation.php" />
-        <option value="$PROJECT_DIR$/app/Room.php" />
-        <option value="$PROJECT_DIR$/app/Employee.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_01_091035_create_hotel_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_01_142742_create_room_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_01_171702_create_employee_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_28_133048_create_hotel_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_04_28_133305_create_room_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_28_133333_create_employee_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_28_133434_create_reservation_table.php" />
+        <option value="$PROJECT_DIR$/app/Room.php" />
+        <option value="$PROJECT_DIR$/app/Employee.php" />
+        <option value="$PROJECT_DIR$/app/Hotel.php" />
+        <option value="$PROJECT_DIR$/app/Reservation.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_04_28_133305_create_room_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/content/main.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HotelController.php" />
+        <option value="$PROJECT_DIR$/resources/views/hotel/index.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -170,7 +176,9 @@
     <option name="width" value="1156" />
     <option name="height" value="662" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -191,13 +199,61 @@
             <path>
               <item name="HotelManagementSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="HotelManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HotelManagementSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="HotelManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HotelManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HotelManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HotelManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HotelManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HotelManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HotelManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HotelManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HotelManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="footer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HotelManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HotelManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HotelManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HotelManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HotelManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HotelManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -208,9 +264,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\HotelManagementSystem\resources\views\content" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -243,17 +304,51 @@
       <workItem from="1554099021503" duration="1481000" />
       <workItem from="1554137611362" duration="6029000" />
       <workItem from="1555096491976" duration="2024000" />
-      <workItem from="1556458004918" duration="878000" />
+      <workItem from="1556458004918" duration="2167000" />
+      <workItem from="1556904836911" duration="317000" />
+      <workItem from="1557403125215" duration="2249000" />
+      <workItem from="1557556288177" duration="1406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20865000" />
+    <option name="totallyTimeSpent" value="26126000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.9516908" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -266,13 +361,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.9516908" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.9516908" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -312,28 +407,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_01_151454_create_employee_table.php" />
-    <entry file="file://$PROJECT_DIR$/app/Room.php" />
-    <entry file="file://$PROJECT_DIR$/app/Reservation.php" />
-    <entry file="file://$PROJECT_DIR$/app/Hotel.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_01_142742_create_room_table.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_01_171702_create_employee_table.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_01_161151_create_reservation_table.php" />
-    <entry file="file://$PROJECT_DIR$/app/Employee.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_01_091035_create_hotel_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_28_133305_create_room_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_28_133048_create_hotel_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="107" selection-start-line="24" selection-start-column="107" selection-end-line="24" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_28_133333_create_employee_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -345,6 +422,103 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_28_133048_create_hotel_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="107" selection-start-line="24" selection-start-column="107" selection-end-line="24" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Employee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Hotel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Reservation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Room.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_28_133305_create_room_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/content/header/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/content/header/header_meta.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/content/footer/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/content/footer/footer_meta.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/content/navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/hotel/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/hotel/update.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/hotel/delete.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/hotel/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/content/main.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/hotel/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HotelController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
