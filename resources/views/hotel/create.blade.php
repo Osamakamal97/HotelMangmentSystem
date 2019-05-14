@@ -3,7 +3,8 @@
 @section('content')
 <div class="col-md-12">
 <div class="row">
-        <form method="POST" action="{{route('hotel.create')}}">
+        <form method="POST" action="{{route('hotel.store')}}">
+        @csrf
             <div class="form-group">
                 <label>Hotel name:</label>
                 <input type="text" class="form-control" name="hotel_name">   
@@ -22,19 +23,19 @@
             </div>
             <div class="form-group">
                 <label>Employee number:</label>
-                <input type="number" class="form-control" name="room_number">   
+                <input type="number" class="form-control" name="employee_number">   
             </div>
             <div class="form-group">
                 <label>Customer number:</label>
-                <input type="number" class="form-control" name="room_number">   
+                <input type="number" class="form-control" name="customer_number">   
             </div>
             <div class="form-group">
                 <label>Stars number:</label>
-                <input type="text" class="form-control" name="room_number">   
+                <input type="text" class="form-control" name="hotel_star">   
             </div>
             <div class="form-group">
                 <label>Services :</label>
-                <input type="text" class="form-control" name="room_number">   
+                <input type="text" class="form-control" name="hotel_services">   
             </div>
             <div class="form-group">
                 <input class="btn btn-primary" type="submit" name="submit">

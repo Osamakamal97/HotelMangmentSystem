@@ -13,18 +13,19 @@ class CreateHotelTable extends Migration
      */
     public function up()
     {
-        Schema::create('hotel', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->string('name');
-            $table->integer('hotel_stars');//enum
-            $table->integer('phone_number');
-            $table->string('address');
-            $table->integer('number_of_rooms');
-            $table->integer('number_of_employees');
-            $table->integer('number_of_customers');
-            $table->text('hotel_services');//for every serves true or false -should be in independent table
-            $table->timestamps();
-        });
+
+        // Schema::create('hotel', function (Blueprint $table) {
+        //     $table->bigIncrements('id');
+        //     $table->string('name');
+        //     $table->integer('hotel_stars');//enum
+        //     $table->integer('phone_number');
+        //     $table->string('address');
+        //     $table->integer('number_of_rooms');
+        //     $table->integer('number_of_employees');
+        //     $table->integer('number_of_customers');
+        //     $table->text('hotel_services');//for every serves true or false -should be in independent table
+        //     $table->timestamps();
+        // });
     }
 
     /**
@@ -34,6 +35,6 @@ class CreateHotelTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('hotel');
+        // Schema::dropIfExists('hotel');
     }
 }

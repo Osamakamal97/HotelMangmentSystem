@@ -18,7 +18,7 @@ Route::get('/', function () {
 Route::group(['prefix' => 'hotel'],function (){
 
     Route::get('/',['as'=>'index','uses'=>'HotelController@index']);
-    Route::get('/create',['as'=>'hotel.create','uses'=>'HotelController@create']);
-
+    Route::get('/create',['as' => 'hotel.create', 'uses' => 'HotelController@create']);
+    Route::post('/store',['as' => 'hotel.sote', 'uses' => 'HotelController@store']);
 
 });
