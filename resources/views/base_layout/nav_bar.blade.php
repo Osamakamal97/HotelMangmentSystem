@@ -10,8 +10,7 @@
         <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
         <!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
         <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
-        <ul class="page-sidebar-menu  page-header-fixed " data-keep-expanded="false" data-auto-scroll="true"
-            data-slide-speed="200" style="padding-top: 20px">
+        <ul class="page-sidebar-menu  page-header-fixed " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200" style="padding-top: 20px">
             <!-- DOC: To remove the sidebar toggler from the sidebar you just need to completely remove the below "sidebar-toggler-wrapper" LI element -->
             <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
             <li class="sidebar-toggler-wrapper hide">
@@ -32,10 +31,10 @@
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search...">
                         <span class="input-group-btn">
-                                            <a href="javascript:;" class="btn submit">
-                                                <i class="icon-magnifier"></i>
-                                            </a>
-                                        </span>
+                            <a href="javascript:;" class="btn submit">
+                                <i class="icon-magnifier"></i>
+                            </a>
+                        </span>
                     </div>
                 </form>
                 <!-- END RESPONSIVE QUICK SEARCH FORM -->
@@ -43,66 +42,95 @@
             <li class="nav-item start ">
                 <a href="javascript:;" class="nav-link nav-toggle">
                     <i class="fa fa-book"></i>
-                    <span class="title">Categories</span>
+                    <span class="title">Hotel</span>
                     <span class="arrow"></span>
                 </a>
                 <ul class="sub-menu">
-                <li class="nav-item start ">
-                            <a href=" class="nav-link ">
-                                <i class="fa fa-list"></i>
-                                <span class="title">Show Categories</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href=" " class="nav-link ">
-                                <i class="fa fa-plus"></i>
-                                <span class="title">Add Category</span>
-                            </a>
-                        </li>
+                    <li class="nav-item start ">
+                    <li class="nav-item">
+                        <a href="{{route('hotel.create')}}" class="nav-link ">
+                            <i class="fa fa-plus"></i>
+                            <span class="title">Hotel info</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href=" {{route('hotel.edit')}}" class=" nav-link ">
+                            <i class=" fa fa-list"></i>
+                            <span class="title">Edit hotel</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item start ">
+                <a href="javascript:;" class="nav-link nav-toggle">
+                    <i class="fa fa-book"></i>
+                    <span class="title">Room</span>
+                    <span class="arrow"></span>
+                </a>
+                <ul class="sub-menu">
+                    <li class="nav-item start ">
+                    <li class="nav-item">
+                        <a href="{{route('room.create')}}" class="nav-link ">
+                            <i class="fa fa-plus"></i>
+                            <span class="title">Add Room</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href=" {{route('room.edit')}}" class=" nav-link ">
+                            <i class=" fa fa-list"></i>
+                            <span class="title">Edit Room</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href=" {{route('room.delete')}}" class=" nav-link ">
+                            <i class=" fa fa-list"></i>
+                            <span class="title">Delete Room</span>
+                        </a>
+                    </li>
                 </ul>
             </li>
 
             <li class="nav-item start ">
                 <a href="javascript:;" class="nav-link nav-toggle">
                     <i class="fa fa-book"></i>
-                    <span class="title">Books</span>
+                    <span class="title">Employee</span>
                     <span class="arrow"></span>
                 </a>
                 <ul class="sub-menu">
-                <li class="nav-item start ">
-                            <a href="" class="nav-link ">
-                                <i class="fa fa-list"></i>
-                                <span class="title">Show Books</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href=" " class="nav-link ">
-                                <i class="fa fa-plus"></i>
-                                <span class="title">Add Book</span>
-                            </a>
-                        </li>
+                    <li class="nav-item start ">
+                        <a href="" class="nav-link ">
+                            <i class="fa fa-list"></i>
+                            <span class="title">Show Books</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href=" " class="nav-link ">
+                            <i class="fa fa-plus"></i>
+                            <span class="title">Add Book</span>
+                        </a>
+                    </li>
                 </ul>
             </li>
-            
+
             <li class="nav-item start ">
                 <a href="javascript:;" class="nav-link nav-toggle">
                     <i class="fa fa-book"></i>
-                    <span class="title">Libraries</span>
+                    <span class="title">Reservation</span>
                     <span class="arrow"></span>
                 </a>
                 <ul class="sub-menu">
-                <li class="nav-item start ">
-                            <a href="" class="nav-link ">
-                                <i class="fa fa-list"></i>
-                                <span class="title">Show Libraries</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href=" " class="nav-link ">
-                                <i class="fa fa-plus"></i>
-                                <span class="title">Add Libraries</span>
-                            </a>
-                        </li>
+                    <li class="nav-item start ">
+                        <a href="" class="nav-link ">
+                            <i class="fa fa-list"></i>
+                            <span class="title">Show Libraries</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href=" " class="nav-link ">
+                            <i class="fa fa-plus"></i>
+                            <span class="title">Add Libraries</span>
+                        </a>
+                    </li>
                 </ul>
             </li>
         </ul>

@@ -4,10 +4,9 @@
 
 <div class="col-md-12">
     <form method="POST" action="{{route('room.store')}}">
-        @csrf
         <div class="form-group">
             <label>room number</label>
-            <input class="form-control" type="number" name="room_number">
+            <input class="form-control" type="number" name="room_number" value="{{room_data->room_number}}">
         </div>
         <div class="form-group">
             <label>Type</label>

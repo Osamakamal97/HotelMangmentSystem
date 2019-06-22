@@ -16,12 +16,12 @@ class CreateRoomTable extends Migration
         Schema::create('rooms', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->integer('room_number');
-            $table->integer('floor');
-            $table->enum('type',['Standard','Superior','Junior Suite']);//open website to show what there like booking.com
+            $table->enum('type', ['single','double','king','twin','cabana', 'superior', 'junior_suite']);//open website to show what there like booking.com
             $table->integer('price');
             $table->enum('book_type',['daily','monthly']);
             $table->boolean('is_booked');
-            $table->text('room_services');
+            $table->text('image');
+            $table->text('services');
             $table->timestamps();
         });
     }
